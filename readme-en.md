@@ -19,6 +19,7 @@
   <a href="#-project-video-presentation">Video</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies-used">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-differentials">Differentials</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-cloning-the-project">Cloning</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributor-contact">Contact</a>
 </p>
@@ -50,6 +51,10 @@
 This project is the **Copa** Desktop-First Web Interface, a world cup themed application that performs the registration and management of pools, games and users, developed during the Ignite trail of the NLW Cup of [Rocketseat](https://www.rocketseat.com.br/).<br>
 The data is provided by its [API](https://github.com/Luk4x/copa-server) developed essentially with Fastify, and that consumes it using the SSR concept (`getServerSideProps`) from Next. Here, through the Web version, in addition to showing the numerical data retrieved from the API, it is also possible to create pools.<br>
 The project is relatively simple, consisting of only 1 page, as this Web version is complementary to the [Mobile](https://github.com/Luk4x/copa-mobile) version developed essentially with React Native, where there are other functionalities more complex, such as the authentication system with Google, the possibility of entering the pools created by other people, among others.
+
+### 📌 Differentials
+- Responsiveness;
+- Automatic update of created pools;
 
 ## 📖 Cloning the Project
 
