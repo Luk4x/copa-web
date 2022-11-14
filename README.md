@@ -19,8 +19,6 @@
   <a href="#-apresentação-em-vídeo-do-projeto">Vídeo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-páginas">Páginas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-demais-componentes">Componentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-clonando-o-projeto">Clone</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contato-dos-contribuintes">Contato</a>
 </p>
@@ -54,25 +52,24 @@ O projeto é relativamente simples, composto apenas por 1 página, pois ele essa
 
 ## 📖 Clonando o Projeto
 
-Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) ou superior e [Yarn](https://yarnpkg.com/) previamente instalados.<br>
-Você também precisará da API do projeto rodando, portanto, antes de continuar por aqui, vá ao [Repositório da API](https://github.com/Luk4x/dev-burger-order-log-API) e faça os passos sobre como cloná-la e executá-la primeiro!<br>
+Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/) e [Node.js v18.12.0](https://nodejs.org/en/) ou superior previamente instalados.<br>
+Você também precisará da API do projeto rodando, portanto, antes de continuar por aqui, vá ao [Repositório da API](https://github.com/Luk4x/copa-server) e faça os passos sobre como cloná-la e executá-la primeiro!<br>
 Feito esses dois passos, no terminal:
-
 
 ```bash
 # Clone esse repositório com:
-> git clone https://github.com/Luk4x/dev-burger-order-log-interface.git
+> git clone https://github.com/Luk4x/copa-web.git
 
 # Entre no repositório com:
-> cd dev-burger-order-log-interface
+> cd copa-web
 
 # Instale as dependências com:
-> yarn install
+> npm install
 
 # Execute o projeto com:
-> yarn dev
+> npm run dev
 
-# Feito isso, você já poderá acessar o projeto pelo link que aparecerá no terminal! (algo como http://localhost:3000/ ou http://127.0.0.1:5173/)
+# Feito isso, você já poderá acessar o projeto pelo link que aparecerá no terminal! (algo como http://localhost:3000/ ou 0.0.0.0:3000/)
 ```
 
 ## 🤝 Contato dos Contribuintes
@@ -91,5 +88,5 @@ Feito esses dois passos, no terminal:
 </table>
 
 <p align="right">
-  <a href="#-codeburger-project-interface">Voltar ao Topo</a>
+  <a href="#-copa-project-web-interface">Voltar ao Topo</a>
 </p>
