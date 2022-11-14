@@ -48,7 +48,7 @@
 
 > Assistir o vídeo acima ajudará na compreensão da explicação!
 
-Esse projeto é a Interface Web Desktop-First da **Copa**, uma aplicação temática da copa do mundo que realiza o cadastro e a gerência de bolões, jogos e usuários, desenvolvida na durante a trilha Ignite da NLW Copa da [Rocketseat](https://www.rocketseat.com.br/).<br>
+Esse projeto é a Interface Web Desktop-First da **Copa**, uma aplicação temática da copa do mundo que realiza o cadastro e a gerência de bolões, jogos e usuários, desenvolvida durante a trilha Ignite da NLW Copa da [Rocketseat](https://www.rocketseat.com.br/).<br>
 Os dados são fornecidos pela sua [API](https://github.com/Luk4x/copa-server) desenvolvida essencialmente com Fastify, e que a consumo usando o conceito de SSR (`getServerSideProps`) do Next. Aqui pela versão Web, além de mostrar os dados numéricos resgatados da API, também é possível realizar a criação de bolões.<br>
 O projeto é relativamente simples, composto apenas por 1 página, pois ele essa versão Web é complementar a versão [Mobile](https://github.com/Luk4x/copa-mobile) desenvolvida essencialmente com React Native, onde nela existem outras funcionalidades mais complexas, como o sistema de autenticação com Google, a possibilidade de entrar nos bolões criados por outras pessoas, dentre outras.
 
