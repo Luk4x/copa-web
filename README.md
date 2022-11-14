@@ -1,36 +1,95 @@
-# ⚠️ Under Construction ⚠️
+<table align="right">
+  <tr>
+    <td>
+      <a href="readme-en.md">🇺🇸 English</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="README.md">🇧🇷 Português</a>
+    </td>
+  </tr>
+</table>
+<br>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚽ Copa Project Web Interface
 
-## Getting Started
+<br>
+<p align="center">
+  <a href="#-apresentação-em-vídeo-do-projeto">Vídeo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-páginas">Páginas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-demais-componentes">Componentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-clonando-o-projeto">Clone</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato-dos-contribuintes">Contato</a>
+</p>
+<br>
 
-First, run the development server:
+## 📹 Apresentação em Vídeo do Projeto
+<div align="center">
+  <video src="https://user-images.githubusercontent.com/86276393/201687710-bcd73479-80e0-4eec-88d7-6f73bcae0a34.mp4" />
+</div>
+
+> **Caso o vídeo apresente algum erro, recarregue a página!**<br>
+
+## 🚀 Tecnologias utilizadas
+
+- [NextJS](https://nextjs.org/)
+- [ReactJS](https://pt-br.reactjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [npm](https://www.npmjs.com/)
+
+## 📝 Sobre
+
+> Assistir o vídeo acima ajudará na compreensão da explicação!
+
+Esse projeto é a Interface Web Desktop-First da **Copa**, uma aplicação temática da copa do mundo que realiza o cadastro e a gerência de bolões, jogos e usuários, desenvolvida na durante a trilha Ignite da NLW Copa da [Rocketseat](https://www.rocketseat.com.br/).<br>
+Os dados são fornecidos pela sua [API](https://github.com/Luk4x/copa-server) desenvolvida essencialmente com Fastify, e que a consumo usando o conceito de SSR (`getServerSideProps`) do Next. Aqui pela versão Web, além de mostrar os dados numéricos resgatados da API, também é possível realizar a criação de bolões.<br>
+O projeto é relativamente simples, composto apenas por 1 página, pois ele essa versão Web é complementar a versão [Mobile](https://github.com/Luk4x/copa-mobile) desenvolvida essencialmente com React Native, onde nela existem outras funcionalidades mais complexas, como o sistema de autenticação com Google, a possibilidade de entrar nos bolões criados por outras pessoas, dentre outras.
+
+## 📖 Clonando o Projeto
+
+Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) ou superior e [Yarn](https://yarnpkg.com/) previamente instalados.<br>
+Você também precisará da API do projeto rodando, portanto, antes de continuar por aqui, vá ao [Repositório da API](https://github.com/Luk4x/dev-burger-order-log-API) e faça os passos sobre como cloná-la e executá-la primeiro!<br>
+Feito esses dois passos, no terminal:
+
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone esse repositório com:
+> git clone https://github.com/Luk4x/dev-burger-order-log-interface.git
+
+# Entre no repositório com:
+> cd dev-burger-order-log-interface
+
+# Instale as dependências com:
+> yarn install
+
+# Execute o projeto com:
+> yarn dev
+
+# Feito isso, você já poderá acessar o projeto pelo link que aparecerá no terminal! (algo como http://localhost:3000/ ou http://127.0.0.1:5173/)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contato dos Contribuintes
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/lucasmacielf/">
+        <img src="https://avatars.githubusercontent.com/Luk4x" width="150px;" alt="Luk4x Github Photo"/><br>
+        <sub>
+          <b>Lucas Maciel</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">
+  <a href="#-codeburger-project-interface">Voltar ao Topo</a>
+</p>
