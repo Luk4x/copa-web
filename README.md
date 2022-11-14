@@ -51,6 +51,10 @@ Esse projeto é a Interface Web Desktop-First da **Copa**, uma aplicação temá
 Os dados são fornecidos pela sua [API](https://github.com/Luk4x/copa-server) desenvolvida essencialmente com Fastify, e que a consumo usando o conceito de SSR (`getServerSideProps`) do Next. Aqui pela versão Web, além de mostrar os dados numéricos resgatados da API, também é possível realizar a criação de bolões.<br>
 O projeto é relativamente simples, composto apenas por 1 página, pois ele essa versão Web é complementar a versão [Mobile](https://github.com/Luk4x/copa-mobile) desenvolvida essencialmente com React Native, onde nela existem outras funcionalidades mais complexas, como o sistema de autenticação com Google, a possibilidade de entrar nos bolões criados por outras pessoas, dentre outras.
 
+### 📌 Diferenciais
+- Responsividade;
+- Atualização automática dos bolões criados;
+
 ## 📖 Clonando o Projeto
 
 Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/) e [Node.js v18.12.0](https://nodejs.org/en/) ou superior previamente instalados.<br>
